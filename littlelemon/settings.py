@@ -20,7 +20,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/6.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-wv9xep8ti+@7-qud0!)ce^)gs8qiyyxxq(y!xprj@!it!-8)r!'
+SECRET_KEY = ''
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -82,7 +82,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'LittleLemon',
         'USER':'root',
-        'PASSWORD':'abcd1234@',
+        'PASSWORD':'',
         'PORT':'3306',
         'HOST':'127.0.0.1',
         'OPTIONS': {
